@@ -7,32 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9846B01291301A700AD8175 /* SizzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9846B00291301A700AD8175 /* SizzleApp.swift */; };
-		F9846B05291301AB00AD8175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9846B04291301AB00AD8175 /* Assets.xcassets */; };
-		F9846B08291301AB00AD8175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9846B07291301AB00AD8175 /* Preview Assets.xcassets */; };
-		F99017B22940050F00B2B067 /* SearchFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AA2940050E00B2B067 /* SearchFunc.swift */; };
-		F99017B32940050F00B2B067 /* SingleRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AB2940050E00B2B067 /* SingleRecipe.swift */; };
-		F99017B52940050F00B2B067 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AD2940050E00B2B067 /* ContentView.swift */; };
-		F99017B62940050F00B2B067 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AE2940050E00B2B067 /* RecipeView.swift */; };
-		F99017B82940050F00B2B067 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017B02940050F00B2B067 /* SearchView.swift */; };
-		F99017B92940050F00B2B067 /* MultiRecipeResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017B12940050F00B2B067 /* MultiRecipeResults.swift */; };
+		F9930DCB29383058002F483F /* SizzlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9930DCA29383058002F483F /* SizzlerApp.swift */; };
+		F9930DCD29383058002F483F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9930DCC29383058002F483F /* ContentView.swift */; };
+		F9930DCF29383061002F483F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9930DCE29383061002F483F /* Assets.xcassets */; };
+		F9930DD229383061002F483F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9930DD129383061002F483F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F9846AFD291301A700AD8175 /* Sizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9846B00291301A700AD8175 /* SizzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizzleApp.swift; sourceTree = "<group>"; };
-		F9846B04291301AB00AD8175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F9846B07291301AB00AD8175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F99017AA2940050E00B2B067 /* SearchFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchFunc.swift; path = ../../../Sizzler/Sizzler/SearchFunc.swift; sourceTree = "<group>"; };
-		F99017AB2940050E00B2B067 /* SingleRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleRecipe.swift; path = ../../../Sizzler/Sizzler/SingleRecipe.swift; sourceTree = "<group>"; };
-		F99017AD2940050E00B2B067 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Sizzler/Sizzler/ContentView.swift; sourceTree = "<group>"; };
-		F99017AE2940050E00B2B067 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeView.swift; path = ../../../Sizzler/Sizzler/RecipeView.swift; sourceTree = "<group>"; };
-		F99017B02940050F00B2B067 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../Sizzler/Sizzler/SearchView.swift; sourceTree = "<group>"; };
-		F99017B12940050F00B2B067 /* MultiRecipeResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiRecipeResults.swift; path = ../../../Sizzler/Sizzler/MultiRecipeResults.swift; sourceTree = "<group>"; };
+		F9930DC729383058002F483F /* Sizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9930DCA29383058002F483F /* SizzlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizzlerApp.swift; sourceTree = "<group>"; };
+		F9930DCC29383058002F483F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9930DCE29383061002F483F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9930DD129383061002F483F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F9846AFA291301A700AD8175 /* Frameworks */ = {
+		F9930DC429383058002F483F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F9846AF4291301A700AD8175 = {
+		F9930DBE29383058002F483F = {
 			isa = PBXGroup;
 			children = (
-				F9846AFF291301A700AD8175 /* Sizzle */,
-				F9846AFE291301A700AD8175 /* Products */,
+				F9930DC929383058002F483F /* Sizzler */,
+				F9930DC829383058002F483F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F9846AFE291301A700AD8175 /* Products */ = {
+		F9930DC829383058002F483F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9846AFD291301A700AD8175 /* Sizzle.app */,
+				F9930DC729383058002F483F /* Sizzler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9846AFF291301A700AD8175 /* Sizzle */ = {
+		F9930DC929383058002F483F /* Sizzler */ = {
 			isa = PBXGroup;
 			children = (
-				F9846B00291301A700AD8175 /* SizzleApp.swift */,
-				F9846B04291301AB00AD8175 /* Assets.xcassets */,
-				F99017AD2940050E00B2B067 /* ContentView.swift */,
-				F99017B12940050F00B2B067 /* MultiRecipeResults.swift */,
-				F99017AE2940050E00B2B067 /* RecipeView.swift */,
-				F99017AA2940050E00B2B067 /* SearchFunc.swift */,
-				F99017B02940050F00B2B067 /* SearchView.swift */,
-				F99017AB2940050E00B2B067 /* SingleRecipe.swift */,
-				F9846B06291301AB00AD8175 /* Preview Content */,
+				F9930DCA29383058002F483F /* SizzlerApp.swift */,
+				F9930DCC29383058002F483F /* ContentView.swift */,
+				F9930DCE29383061002F483F /* Assets.xcassets */,
+				F9930DD029383061002F483F /* Preview Content */,
 			);
-			path = Sizzle;
+			path = Sizzler;
 			sourceTree = "<group>";
 		};
-		F9846B06291301AB00AD8175 /* Preview Content */ = {
+		F9930DD029383061002F483F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F9846B07291301AB00AD8175 /* Preview Assets.xcassets */,
+				F9930DD129383061002F483F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9846AFC291301A700AD8175 /* Sizzle */ = {
+		F9930DC629383058002F483F /* Sizzler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9846B11291301AB00AD8175 /* Build configuration list for PBXNativeTarget "Sizzle" */;
+			buildConfigurationList = F9930DD529383061002F483F /* Build configuration list for PBXNativeTarget "Sizzler" */;
 			buildPhases = (
-				F9846AF9291301A700AD8175 /* Sources */,
-				F9846AFA291301A700AD8175 /* Frameworks */,
-				F9846AFB291301A700AD8175 /* Resources */,
+				F9930DC329383058002F483F /* Sources */,
+				F9930DC429383058002F483F /* Frameworks */,
+				F9930DC529383058002F483F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Sizzle;
-			productName = Sizzle;
-			productReference = F9846AFD291301A700AD8175 /* Sizzle.app */;
+			name = Sizzler;
+			productName = Sizzler;
+			productReference = F9930DC729383058002F483F /* Sizzler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F9846AF5291301A700AD8175 /* Project object */ = {
+		F9930DBF29383058002F483F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					F9846AFC291301A700AD8175 = {
+					F9930DC629383058002F483F = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
-			buildConfigurationList = F9846AF8291301A700AD8175 /* Build configuration list for PBXProject "Sizzle" */;
+			buildConfigurationList = F9930DC229383058002F483F /* Build configuration list for PBXProject "Sizzler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,47 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F9846AF4291301A700AD8175;
-			productRefGroup = F9846AFE291301A700AD8175 /* Products */;
+			mainGroup = F9930DBE29383058002F483F;
+			productRefGroup = F9930DC829383058002F483F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9846AFC291301A700AD8175 /* Sizzle */,
+				F9930DC629383058002F483F /* Sizzler */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F9846AFB291301A700AD8175 /* Resources */ = {
+		F9930DC529383058002F483F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9846B08291301AB00AD8175 /* Preview Assets.xcassets in Resources */,
-				F9846B05291301AB00AD8175 /* Assets.xcassets in Resources */,
+				F9930DD229383061002F483F /* Preview Assets.xcassets in Resources */,
+				F9930DCF29383061002F483F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F9846AF9291301A700AD8175 /* Sources */ = {
+		F9930DC329383058002F483F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F99017B82940050F00B2B067 /* SearchView.swift in Sources */,
-				F99017B22940050F00B2B067 /* SearchFunc.swift in Sources */,
-				F99017B52940050F00B2B067 /* ContentView.swift in Sources */,
-				F99017B92940050F00B2B067 /* MultiRecipeResults.swift in Sources */,
-				F99017B62940050F00B2B067 /* RecipeView.swift in Sources */,
-				F99017B32940050F00B2B067 /* SingleRecipe.swift in Sources */,
-				F9846B01291301A700AD8175 /* SizzleApp.swift in Sources */,
+				F9930DCD29383058002F483F /* ContentView.swift in Sources */,
+				F9930DCB29383058002F483F /* SizzlerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F9846B0F291301AB00AD8175 /* Debug */ = {
+		F9930DD329383061002F483F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		F9846B10291301AB00AD8175 /* Release */ = {
+		F9930DD429383061002F483F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,14 +259,14 @@
 			};
 			name = Release;
 		};
-		F9846B12291301AB00AD8175 /* Debug */ = {
+		F9930DD629383061002F483F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sizzle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sizzler/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Elirach.Sizzle;
+				PRODUCT_BUNDLE_IDENTIFIER = Elirach.Sizzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		F9846B13291301AB00AD8175 /* Release */ = {
+		F9930DD729383061002F483F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sizzle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sizzler/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Elirach.Sizzle;
+				PRODUCT_BUNDLE_IDENTIFIER = Elirach.Sizzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9846AF8291301A700AD8175 /* Build configuration list for PBXProject "Sizzle" */ = {
+		F9930DC229383058002F483F /* Build configuration list for PBXProject "Sizzler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9846B0F291301AB00AD8175 /* Debug */,
-				F9846B10291301AB00AD8175 /* Release */,
+				F9930DD329383061002F483F /* Debug */,
+				F9930DD429383061002F483F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9846B11291301AB00AD8175 /* Build configuration list for PBXNativeTarget "Sizzle" */ = {
+		F9930DD529383061002F483F /* Build configuration list for PBXNativeTarget "Sizzler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9846B12291301AB00AD8175 /* Debug */,
-				F9846B13291301AB00AD8175 /* Release */,
+				F9930DD629383061002F483F /* Debug */,
+				F9930DD729383061002F483F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F9846AF5291301A700AD8175 /* Project object */;
+	rootObject = F9930DBF29383058002F483F /* Project object */;
 }
