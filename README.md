@@ -1,3 +1,4 @@
+
 # Sizzle
 
 ## What is the app about?
@@ -13,6 +14,5 @@ Create an app where one can make recipes, store them, and share them with others
 * Creating readable and functional recipes
 * Share recipes on an online database
 * Change style of recipe showings (old fashioned, modern, etc).
-
 
 
