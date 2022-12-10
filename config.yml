@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 personal_project: transactions
 name: Charlie Nevitt
 
 Bug Design: Ad Skip - https://vimeo.com/756419156
 Good Design: infinite scroll - https://vimeo.com/756421700
+=======
+ personal_project: transactions 
+ name: Charlie Nevitt 
+  
+ Bug Design: Ad Skip - https://vimeo.com/756419156 
+ Good Design: infinite scroll - https://vimeo.com/756421700 
+
+ project-check-in-1: https://github.com/Eli-rach/ATLAS-iOS-Fall-22/blob/main/Sizzle/Checkpoint1.md
+>>>>>>> bc5967e2772c736f8a01a4af4454b17ca3f62fe7
