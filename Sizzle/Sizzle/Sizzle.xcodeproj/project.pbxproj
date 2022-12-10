@@ -8,27 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F9846B01291301A700AD8175 /* SizzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9846B00291301A700AD8175 /* SizzleApp.swift */; };
+		F9846B03291301A700AD8175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9846B02291301A700AD8175 /* ContentView.swift */; };
 		F9846B05291301AB00AD8175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9846B04291301AB00AD8175 /* Assets.xcassets */; };
 		F9846B08291301AB00AD8175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9846B07291301AB00AD8175 /* Preview Assets.xcassets */; };
-		F99017B22940050F00B2B067 /* SearchFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AA2940050E00B2B067 /* SearchFunc.swift */; };
-		F99017B32940050F00B2B067 /* SingleRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AB2940050E00B2B067 /* SingleRecipe.swift */; };
-		F99017B52940050F00B2B067 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AD2940050E00B2B067 /* ContentView.swift */; };
-		F99017B62940050F00B2B067 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017AE2940050E00B2B067 /* RecipeView.swift */; };
-		F99017B82940050F00B2B067 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017B02940050F00B2B067 /* SearchView.swift */; };
-		F99017B92940050F00B2B067 /* MultiRecipeResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99017B12940050F00B2B067 /* MultiRecipeResults.swift */; };
+		F9846B0A291301AB00AD8175 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9846B09291301AB00AD8175 /* Persistence.swift */; };
+		F9846B0D291301AB00AD8175 /* Sizzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9846B0B291301AB00AD8175 /* Sizzle.xcdatamodeld */; };
+		F9846B152913020600AD8175 /* recipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9846B142913020600AD8175 /* recipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9846AFD291301A700AD8175 /* Sizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9846B00291301A700AD8175 /* SizzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizzleApp.swift; sourceTree = "<group>"; };
+		F9846B02291301A700AD8175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9846B04291301AB00AD8175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9846B07291301AB00AD8175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F99017AA2940050E00B2B067 /* SearchFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchFunc.swift; path = ../../../Sizzler/Sizzler/SearchFunc.swift; sourceTree = "<group>"; };
-		F99017AB2940050E00B2B067 /* SingleRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleRecipe.swift; path = ../../../Sizzler/Sizzler/SingleRecipe.swift; sourceTree = "<group>"; };
-		F99017AD2940050E00B2B067 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Sizzler/Sizzler/ContentView.swift; sourceTree = "<group>"; };
-		F99017AE2940050E00B2B067 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeView.swift; path = ../../../Sizzler/Sizzler/RecipeView.swift; sourceTree = "<group>"; };
-		F99017B02940050F00B2B067 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../Sizzler/Sizzler/SearchView.swift; sourceTree = "<group>"; };
-		F99017B12940050F00B2B067 /* MultiRecipeResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiRecipeResults.swift; path = ../../../Sizzler/Sizzler/MultiRecipeResults.swift; sourceTree = "<group>"; };
+		F9846B09291301AB00AD8175 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F9846B0C291301AB00AD8175 /* Sizzle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sizzle.xcdatamodel; sourceTree = "<group>"; };
+		F9846B0E291301AB00AD8175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9846B142913020600AD8175 /* recipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				F9846B00291301A700AD8175 /* SizzleApp.swift */,
+				F9846B02291301A700AD8175 /* ContentView.swift */,
+				F9846B142913020600AD8175 /* recipeView.swift */,
 				F9846B04291301AB00AD8175 /* Assets.xcassets */,
-				F99017AD2940050E00B2B067 /* ContentView.swift */,
-				F99017B12940050F00B2B067 /* MultiRecipeResults.swift */,
-				F99017AE2940050E00B2B067 /* RecipeView.swift */,
-				F99017AA2940050E00B2B067 /* SearchFunc.swift */,
-				F99017B02940050F00B2B067 /* SearchView.swift */,
-				F99017AB2940050E00B2B067 /* SingleRecipe.swift */,
+				F9846B09291301AB00AD8175 /* Persistence.swift */,
+				F9846B0E291301AB00AD8175 /* Info.plist */,
+				F9846B0B291301AB00AD8175 /* Sizzle.xcdatamodeld */,
 				F9846B06291301AB00AD8175 /* Preview Content */,
 			);
 			path = Sizzle;
@@ -152,13 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F99017B82940050F00B2B067 /* SearchView.swift in Sources */,
-				F99017B22940050F00B2B067 /* SearchFunc.swift in Sources */,
-				F99017B52940050F00B2B067 /* ContentView.swift in Sources */,
-				F99017B92940050F00B2B067 /* MultiRecipeResults.swift in Sources */,
-				F99017B62940050F00B2B067 /* RecipeView.swift in Sources */,
-				F99017B32940050F00B2B067 /* SingleRecipe.swift in Sources */,
+				F9846B0D291301AB00AD8175 /* Sizzle.xcdatamodeld in Sources */,
+				F9846B0A291301AB00AD8175 /* Persistence.swift in Sources */,
+				F9846B03291301A700AD8175 /* ContentView.swift in Sources */,
 				F9846B01291301A700AD8175 /* SizzleApp.swift in Sources */,
+				F9846B152913020600AD8175 /* recipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +351,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9846B0B291301AB00AD8175 /* Sizzle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9846B0C291301AB00AD8175 /* Sizzle.xcdatamodel */,
+			);
+			currentVersion = F9846B0C291301AB00AD8175 /* Sizzle.xcdatamodel */;
+			path = Sizzle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9846AF5291301A700AD8175 /* Project object */;
 }
